@@ -1,0 +1,53 @@
+.cabeçalho {
+    position: fixed;
+    width: 100%;
+    padding: .5rem 1rem;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
+
+.cabeçalho__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabeçalho__logo {
+    width: 70px;
+}
+
+.cabeçalho__lista {
+    display: flex;
+    list-style-type: none;
+}
+
+.cabeçalho__item {
+    display: flex;
+}
+
+.cabeçalho__botão {
+    border: 0px solid var(--cor-azul);
+    border-radius: .6rem;
+    background-color: transparent;
+    padding: .5rem 0rem;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    background-image: url(../assets/linkedin-icone.svg);
+    background-position: 15px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: transparent;
+    transition: .3s;
+}
+
+.cabeçalho__botão:hover {
+    background-position: 3px;
+    padding: .5rem .3rem .5rem 1.8rem;
+    color: var(--cor-branco);
+    background-color: var(--cor-azul-claro);
+}
+
+.botão-github {
+    background-image: url(../assets/github-icone.svg);
+}

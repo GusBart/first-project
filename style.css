@@ -1,0 +1,29 @@
+@import url(styles/cabeçalho.css);
+@import url(styles/sobremim.css);
+@import url(styles/especialidades.css);
+@import url(styles/projetos.css);
+@import url(styles/rodapé.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --cor-azul: #2D61D6;
+    --cor-azul-claro: #5380eb;
+    --cor-branco: #FFFFFF;
+    --cor-azul-radical-gradient: radial-gradient(circle, rgba(45,97,214,1) 0%, rgba(42,79,221,1) 50%, rgba(43,62,181,1) 100%);
+
+    --fonte-principal: 'Roboto', sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte-principal);
+}
+
+
+

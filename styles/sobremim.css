@@ -1,0 +1,75 @@
+.sobremim__container {
+    padding: 7rem 2rem 5rem 3rem;
+    display: grid;
+    background: var(--cor-azul-radical-gradient);
+    grid-template-columns: 50% 50%;
+}
+
+.sobremim__texto-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sobremim__titulo {
+    font-weight: 600;
+    color: var(--cor-branco);
+    font-size: 2.5rem;
+}
+
+.sobremim__sublinhado {
+    padding: .1rem;
+    width: 0%;
+    background-color: var(--cor-branco);
+    border-radius: 0 0 24px 24px;
+    animation: sublinhado-sobremim 1.5s both;
+}
+
+@keyframes sublinhado-sobremim {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+.sobremim__texto {
+    margin: 1rem 4rem 0 4rem;
+    font-weight: 300;
+    color: var(--cor-branco);
+}
+
+.sobremim__imagem-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sobremim__imagem {
+    width: 40%;
+    border-radius: 2rem;
+}
+
+.sobremim__texto-imagem {
+    background: url(../assets/seta-apontando-para-direita.svg) no-repeat;
+    background-size: 1rem;
+    background-position: .1rem;
+    padding: 0 1.2rem;
+    margin-top: .4rem;
+    color: aqua;
+    animation: seta-movendo 1s infinite alternate-reverse;
+}
+
+@keyframes seta-movendo {
+    0% {
+        background-position: .1rem;
+    }
+
+    100% {
+        background-position: .3rem;
+    }
+}

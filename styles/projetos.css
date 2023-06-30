@@ -1,0 +1,56 @@
+.projetos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: var(--cor-azul-radical-gradient);
+    padding: 1rem;
+}
+
+/*LADO ESQUERDO*/
+
+.projetos__esquerda {
+    display: flex;
+    align-items: center;
+}
+
+.projetos__lista {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.projetos__item {
+    margin: 0 .5rem;
+}
+
+.projetos__imagem {
+    width: 10rem;
+}
+
+/*LADO DIREITA*/
+
+.projetos__direita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.projetos__titulo {
+    padding: 2rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--cor-branco);
+}
+
+.projetos__imagem-esquerda {
+    width: 50%;
+}
+
+.sublinhado__projetos {
+    padding: .1rem;
+    margin: auto;
+    max-width: 55%;
+    background-color: var(--cor-branco);
+    border-radius: 0 0 12px 12px;
+}

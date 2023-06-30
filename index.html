@@ -2,37 +2,142 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Projeto</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="assets/android-chrome-512x512.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Gustavo Farias</title>
 </head>
+
+<header class="cabeçalho">
+    <section class="cabeçalho__container">
+        <a href="index.html"><img class="cabeçalho__logo" src="assets/logo-gs.png" alt="logo Gustavo Farias"></a>
+            <nav>
+                <ul class="cabeçalho__lista">
+                    <li class="cabeçalho__item">
+                        <a class="cabeçalho__botão" href="https://www.linkedin.com/in/gustavo-farias-378704275/" target="_blank">Linkedin</a>
+                    </li>
+                    <li class="cabeçalho__item">
+                        <a class="cabeçalho__botão botão-github" href="https://github.com/GusBart" target="_blank">GitHub</a>
+                    </li>
+                </ul>
+            </nav>
+    </section>
+</header>
+
 <body>
-    <header class="cabecalho">
-        <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="index.html">Home</a>
-            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
-            <a class="cabecalho__menu__link" href="curriculo.html">Currículo</a>
-        </nav>
-    </header>
-    <main class="apresentacao">
-        <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Bem-Vindo ao meu primeiro Projeto <strong class="textoinicial">com HTML 5 e CSS!</strong></h1>
-            <p class="apresentacao__conteudo__texto">Olá! Sou Gustavo Farias, iniciante no mundo da programação, e no momento estou estudando sobre HTML, CSS E JAVASCRIPT.</p>
-            <div class="apresentacao__links">
-                <h2 class="apresentacao__link__subtitulo">Acesse minhas redes:</h2>
-                    <a class="apresentacao__links__navegacao"  href="https://github.com/GusBart">
-                        <img src="assets/github.png" alt="github" height="20" width="20">
-                        GitHub</a>
-                    <a class="apresentacao__links__navegacao" href="https://twitter.com/ThyGusta?t=BNzt4ijYP6M87jyQesM8pQ&s=09">
-                        <img src="assets/twitter.png" alt="twitter" height="20" width="20">
-                        Twitter</a>
+    <main>
+        <section class="sobremim__container">
+            <div class="sobremim__texto-container">
+                <h1 class="sobremim__titulo">Sobre mim<hr class="sobremim__sublinhado"/></h1>
+                <p class="sobremim__texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure blanditiis ullam debitis quibusdam eius nulla quidem in laudantium iusto earum, temporibus facilis odit sequi, sed tempora aut dolorum! Facilis, fugiat.</p>
+            </div>
+            <div class="sobremim__imagem-container">
+                <img class="sobremim__imagem" src="assets/GustavoFarias.jpeg" alt="Foto do autor do site Gustavo Farias">
+                <p class="sobremim__texto-imagem">Gustavo Farias, 19 anos</p>
             </div>
         </section>
-            <img class="apresentacao__imagem" src="assets/minhafoto.png" alt="minhafoto">
+
+        <section class="especialidade">
+            <div class="especialidade__container-imagem">
+                <img src="assets/personagem-mexendo-no-computador.svg" class="especialidade__imagem-esquerda" alt="Personagem programando">
+            </div>
+            <div class="especialidade__lista__container">
+                <h1 class="especialidade__titulo">Minhas especialidades<hr class="especialidade__sublinhado"/></h1>
+                <ul class="especialidade__lista">
+                    <li class="especialidade__item">
+                        <img class="especialidade__imagem" src="assets/HTML5_logo.png" alt="logo do HTML">
+                    </li>
+                    <li class="especialidade__item">
+                        <img class="especialidade__imagem" src="assets/CSS3_logo.png" alt="logo do CSS">
+                    </li>
+                    <li class="especialidade__item">
+                        <img class="especialidade__imagem" src="assets/java-script-logo-cinza.png" alt="logo do JavaScript">
+                    </li>
+                    <li class="especialidade__item">
+                        <img class="especialidade__imagem" src="assets/React-icon-cinza.png" alt="logo do React">
+                    </li>
+                    <li class="especialidade__item">
+                        <img class="especialidade__imagem" src="assets/Typescript_logo_cinza.png" alt="logo do TyperScript">
+                    </li>
+                </ul>
+                <div class="especialidade__conclusão">
+                    <p class="especialidade__conclusão-texto"><hr class="concluído"/>aperfeiçoando</p>
+                    <p class="especialidade__conclusão-texto"><hr class="concluído estudando"/>estudando</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="projetos">
+            <div class="projetos__esquerda">
+                <ul class="projetos__lista">
+                    <li class="projetos__item">
+                        <a href="https://primeiro-projeto-sozinho.vercel.app/" target="_blank"><img src="assets/primeiro-projeto-innolevels.png" class="projetos__imagem" alt="meu primeiro projeto baseado no site da innolevels"></a>
+                    </li>
+                    <li class="projetos__item">
+                        <a href="https://tema-login.vercel.app/" target="_blank"><img src="assets/tema-login-projeto.png" class="projetos__imagem" alt="projeto tema-login"></a>
+                    </li>
+                    <li class="projetos__item">
+                        <a href="#"><img src="assets/tema-login-projeto.png" class="projetos__imagem" alt="projeto tema-login"></a>
+                    </li>
+                    <li class="projetos__item">
+                        <a href="#"><img src="assets/tema-login-projeto.png" class="projetos__imagem" alt="projeto tema-login"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="projetos__direita">
+                <h2 class="projetos__titulo">Meus projetos<hr class="sublinhado__projetos"/></h2>
+                <img class="projetos__imagem-esquerda" src="assets/personagem-com-arquivos.svg" alt="personagem-com-arquivos">
+            </div>
+        </section>
     </main>
-    <footer class="rodape">
-        <p>Desenvolvido por Gustavo.</p>
-    </footer>
 </body>
+
+<footer class="rodapé__container">
+    <section class="rodapé">
+        <div class="rodapé__esquerdo">
+            <ul class="rodapé__lista">
+                <li class="rodapé__lista">
+                    <a class="rodapé__link" href="#">teste</a>
+                </li>
+                <li class="rodapé__lista">
+                    <a class="rodapé__link" href="#">teste</a>
+                </li>
+                <li class="rodapé__lista">
+                    <a class="rodapé__link" href="#">teste</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="rodapé__centro">
+            <ul class="rodapé__lista">
+                <li class="rodapé__lista">
+                    <a class="rodapé__link" href="#">teste</a>
+                </li>
+                <li class="rodapé__lista">
+                    <a class="rodapé__link" href="#">teste</a>
+                </li>
+                <li class="rodapé__lista">
+                    <a class="rodapé__link" href="#">teste</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="rodapé__direito">
+            <ul class="rodapé__lista">
+                <li class="rodapé__lista">
+                    <a class="rodapé__link" href="#">teste</a>
+                </li>
+                <li class="rodapé__lista">
+                    <a class="rodapé__link" href="#">teste</a>
+                </li>
+                <li class="rodapé__lista">
+                    <a class="rodapé__link" href="#">teste</a>
+                </li>
+                <input type="text" name="" id="" placeholder="Digite seu email">
+            </ul>
+        </div>
+    </section>
+</footer>
+
+
 </html>
